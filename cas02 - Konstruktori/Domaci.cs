@@ -1,4 +1,4 @@
-// -------------- Zadatak za vezbu na casu ----------------------
+// -------------- Zadatak za domaci ----------------------
 // Napraviti klasu Knjiga u zasebnom fajlu koja od atributa ime:
 // 1. Naslov (tekst)
 // 2. Cenu  (broj)
@@ -7,10 +7,4 @@
 // drugoj se dodaju vrednosti odmah po kreiranju objekta.
 // Zatim ispisati oba objekta u Main-u
 
-// -------------- Zadatak za domaci ----------------------
-// Doraditi klasu Knjiga sa casa tako da joj se dodaju sledeci atributi
-// 1. Godina izdavanja ( broj )
-// 2. Autora (tekst)
-// 3. Cena promeni iz int u float.
-// Promeniti konstruktore shodno novim promenama.
-// Zatim ispisati oba objekta u Main-u sa novim atributima.
+// Resenje se nalazi u cas03 - geteri i seteri
