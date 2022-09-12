@@ -16,5 +16,15 @@ class Ucenik{
         this.ime = ime ;
         this.prezime = prezime;        
     }
+    // 6. Metode se pisu isto kao i pre
+    public void dobar_dan(){
+        Console.WriteLine("Ucenik kaze dobar dan");
+    }
+    // 7.   Jedina novina jeste kljucna rec this. Ona predstavlja referencu na 
+    //      objekat koji je poziva. To nam omogucava da "personalizujemo" metode
+    //      i na taj nacin sebi skratimo kod.
+    public void ko_sam_ja(){
+        Console.WriteLine("Dobar dan: " + this.ime + " " + this.prezime);
+    }
 
 }
