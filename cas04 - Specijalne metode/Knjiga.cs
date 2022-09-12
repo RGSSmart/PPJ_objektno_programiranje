@@ -1,4 +1,6 @@
 
+// Klasa knjiga koja je bila za domaci ima dva konstruktora i sve getere i setere
+// Primer instanciranja je u Program.cs fajlu
 class Knjiga{
 
     private string naslov;

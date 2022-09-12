@@ -1,12 +1,12 @@
 
 class Program{
     public static void Main(string[] args){
-        Knjiga prva = new Knjiga();
-        prva.setCena(400);
-        prva.setNaslov("Mali princ");
-        Knjiga druga = new Knjiga("Ana karenjina", 500);
+        Ucenik prvi = new ucenik();
+        prvi.setIme("Jovan");
+        prvi.setPrezime("Popovic");
+        Ucenik drugi = new ucenik("Pera", "Peric");
 
-        Console.WriteLine(" Prva knjiga se zove " + prva.getNaslov() + " i kosta "+ prva.getCena() + "din");
-        Console.WriteLine(" Druga knjiga se zove " + druga.getNaslov() + " i kosta " + druga.getCena() + "din");
+      prvi.javi_se();
+      drugi.javi_se();
     }
 }
