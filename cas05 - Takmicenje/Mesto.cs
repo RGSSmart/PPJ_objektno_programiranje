@@ -1,0 +1,19 @@
+class Mesto
+{
+    public string Grad { get; set; }
+    public string Ulica  { get; set; }
+    public int Broj { get; set; }
+
+    public Mesto() { }
+    public Mesto(string grad, string ulica, int broj) {
+        this.Ulica = ulica;
+        this.Broj = broj;
+        this.Grad = grad;
+    }
+    public Mesto(Mesto mesto) {
+        this.Grad = mesto.Grad;
+        this.Ulica = mesto.Ulica;
+        this.Broj = mesto.Broj;
+    }
+}
+
