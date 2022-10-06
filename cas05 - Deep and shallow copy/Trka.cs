@@ -10,9 +10,7 @@ class Trka
         this.Datum = datum;
         // Ovde se poziva copy construkotr
         this.Mesto = new Mesto(mesto);
-        
-
-    }
+         }
 
 
 }

@@ -1,0 +1,13 @@
+
+    class Takmicar
+    {
+        public string Ime { get; set; }
+        public string Pozicia { get; set; }
+
+        public Takmicar() { }
+        public Takmicar(string ime, string pozicija) {
+            this.Ime = ime;
+            this.Pozicia = pozicija;
+        }
+
+    }

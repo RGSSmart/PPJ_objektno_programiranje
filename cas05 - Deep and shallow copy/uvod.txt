@@ -1,0 +1,6 @@
+// Pretpostavimo da imamo objekte tipa Mesto inicijalizovanih na sledeci nacin:
+Mesto m1 = new Mesto();
+Mesto m2 = new Mesto();
+// Kljucna rec new sluzi za instanciranje i inicijalizaciju objekata u C#.
+// Operator new u pozadini zauzima novo mesto u memoriji 
+m1 = m2;

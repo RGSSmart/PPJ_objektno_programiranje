@@ -1,0 +1,3 @@
+// Modeliranje veze 1:n 
+// 1. Mesto ima listu svih trka u mestu
+// 2. Trka ima listu takmicara koji ucestvuju

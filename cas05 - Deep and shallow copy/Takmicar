@@ -1,0 +1,19 @@
+
+class Trka
+{
+    public string  Naziv { get; set; }
+    public DateTime Datum { get; set; }
+    public Mesto Mesto { get; set; }
+    public List<Takmicar> prijavljeni_takmicari { get; set; }        
+    
+    public Trka() {
+        this.Mesto = new Mesto();
+        this.prijavljeni_takmicari = new List<Takmicar>();
+    }
+    public Trka(string naziv, DateTime datum, Mesto mesto) {
+        this.Naziv = naziv;
+        this.Datum = datum;
+        this.Mesto = new Mesto();           
+        this.prijavljeni_takmicari = new List<Takmicar>();
+    }
+}
