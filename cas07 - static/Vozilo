@@ -1,0 +1,16 @@
+
+class Vozilo
+{
+    public int ID { get; set; }
+    public string Model { get; set; }
+    public long SerijskiBroj { get; set; }
+
+    public static int brVozila = 0;
+        
+    
+    public Vozilo() {
+        brVozila++;
+        Console.WriteLine("Dodato je " + brVozila + " .po redu"); 
+    }
+}
+
